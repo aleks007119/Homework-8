@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         countsLeapYear(2022);
         getDeviceLink(0, 2005 );
-        int deliveryDays = calculateDeliveryDays(60);
+        int deliveryDays = calculateDeliveryDays(100);
         System.out.println("Потребуется дней: " + deliveryDays);
     }
     public static void countsLeapYear(int year) {
